@@ -83,6 +83,7 @@ nav ul li a:hover::after{
 }
 .about-col-1img{
     width:50%;
+    hight:50%;
     border-radius:15px;
 }
 
@@ -95,6 +96,31 @@ nav ul li a:hover::after{
     color: #fff;
     
 }
+/*------------porject--------------*/
+#projects {
+  display: flex;
+  align-items: center;
+}
+
+#projects h2 {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+#projects ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects li {
+  margin: 1em;
+}
+
+
+
 
 
 
