@@ -80,15 +80,13 @@ nav ul li a:hover::after{
     }
 .about-col-1{
     flex-basis: 35%;
+    text-align: center;
 }
-.about-col-1img{
-    width:50%;
-    hight:50%;
-    border-radius:15px;
-}
+
 
 .about-col-2{
     flex-basis: 60%;
+    text-align: center;
 }
 .sub-title{
     font-size: 60px;
@@ -96,6 +94,8 @@ nav ul li a:hover::after{
     color: #fff;
     
 }
+
+
 /*------------porject--------------*/
 #projects {
   display: flex;
@@ -118,9 +118,6 @@ nav ul li a:hover::after{
 #projects li {
   margin: 1em;
 }
-
-
-
 
 
 
