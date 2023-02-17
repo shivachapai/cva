@@ -1,15 +1,23 @@
+/* CSS code for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
-}
+    }
 
 body{
     background: #080808;
     color: #fff;
 }
 .index-page {
+margin: auto;
 background-image: url(images/cva1.jpg);
  position:relative;
 }
@@ -32,7 +40,7 @@ nav{
 }
 
 .logo{
-    margin: 5;
+    margin: 0;
     width: 100px;
     height: 100%;
 }
