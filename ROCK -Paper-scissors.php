@@ -42,14 +42,14 @@ input[type=reset]:hover {
 echo'<a href="index.html"><input classs="button" type="submit" value="TOP"> </a>';
 echo "<h1>ROCK -Paper-scissors-Game Ruslt</h1>";
 
-'<img src="goo.jpg" style="width: 75px;height: 75px;">';
+ '<img src="goo.jpg" style="width: 75px;height: 75px;">';
 if(!empty($_POST)){
     $me=$_POST["hand"];
     if($me==1)  echo "You>>.. goo";
     else if($me==2) echo "You>>.. choki";
     else echo "You>>.. pa";
     if($me==1){
-    echo'<img src="goo.jpg" style="width: 75px;height: 75px;">';   
+    echo'<img src="goo.jpag" style="width: 75px;height: 75px;">';   
     }elseif($me==2){
      echo'<img src="choki.jpg" style="width: 75px;height: 75px;">';   
     }else{

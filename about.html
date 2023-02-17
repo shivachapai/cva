@@ -1,0 +1,97 @@
+<!DOCTYPE htmal>
+<html lang="en">
+<head>
+<Mate charset="UTF-8"></Mate>    
+<mate http-equiv="X-UA-comatible" content="IE-edge"></mate>
+<Mata name="viewport" content="Width=device-Width,initail-scale=1.0"></Mata>
+<title> shiva kumar chapai</title> 
+</head>
+<link rel="stylesheet" href="style.css">  
+ 
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+    <img src="images/logocva.png" calss="logo">
+    <ul>
+    <li><a href="index.html">HOME</a></li>    
+    <li><a href="about.html">About</a></li> 
+    <li><a href="Services.html">Services</a></li> 
+    <li><a href="Projects.html">Projects</a></li> 
+    <li><a href="contact.html">Contact</a></li>     
+    </ul>
+    </nav>
+    <h1 class="sub-title">About Me</h1>
+    <div class="imgtext">
+    <img src="images/shiva51.png" class="img">
+    <h3>こんにちは、私はチャパイシバクマルと申します。ネパールのチタワン出身で、現在は福岡県に住んでいます。
+
+私はコンピューターサイエンスの専攻で学ぶ学生です。趣味は、新しいプログラミング言語を学ぶことや、ウェブ開発をすることです。最近はReactとNext.jsを使ったアプリ開発に興味を持っています。
+私の特徴としては、チームワークを大切にすることが挙げられます。コンピューターサイエンスのプロジェクトでグループワークを行ってきた経験から、相手の意見を尊重し、協力して問題を解決することが重要だと学びました。
+
+これまでの経験としては、学生時代に機械学習を用いたプロジェクトに参加し、ニューラルネットワークの構築やデータ分析を担当しました。また、最近はReactを使ってWebアプリの開発をしています。
+今後の目標としては、日本語能力試験N1の合格や、AI分野での研究開発に携わることが挙げられます。AIに興味を持ち、日本語でのコミュニケーション能力を高めることで、世界的に注目されているAI分野で貢献したいと思っています。
+
+以上が私の自己紹介でした。よろしくお願いいたします。
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('Education')">Education</p>
+</div>
+
+<div id="Skills" class="tabcontent" style="display: block;">
+    <h3>Skills</h3>
+    <div id="Skills" class="tabcontent" style="display: block;">
+    <h3>My Skills</h3>
+    <ul>
+        <li>Web development </li>
+        <li>Database design and management </li>
+        <li>Project management</li>
+    </ul>
+</div>
+
+</div>
+
+<div id="Experience" class="tabcontent">
+    <h3>Experience</h3>
+    <ul>
+        <li><span>2022</span>Web development (HTML, CSS, JavaScript, PHP)</li>
+        <li><span>2021</span>Database design and management (SQL, MongoDB)</li>
+        <li><span>2019</span>Graphic design (Photoshop, Illustrator, InDesign)</li>
+        <li><span>2017</span>Project management (Agile, Scrum, Kanban, etc.)</li>
+    </ul>
+</div>
+
+<div id="Education" class="tabcontent">
+    <h3>Education</h3>
+    <ul>
+     <li><span>2021-2025</span>九州情報大学で経営情報ネットワーク学部勉強中</li>
+    <li><span>2019-2021</span>日本語学卒業（日本国際言語学アカデミー）</li>
+    <li><span>2017-2021</span>Studied at Nepal institute of hardware and software techologe p.Ltd(NISHT)</li>
+    <li><span>2015-2017</span>studied computer Science at Oxford collage of Engineeringe and Management</li>
+    </ul>
+</div>
+        
+<script>
+function opentab(tabname) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tab-links");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active-link", "");
+    }
+    document.getElementById(tabname).style.display = "block";
+    event.currentTarget.className += " active-link";
+}
+        </script>
+        </h3>
+   </div>
+    </div>
+    </div>
+  </body>
+    </html>
+ 
