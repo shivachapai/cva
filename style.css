@@ -155,43 +155,60 @@ h3 {
 
 /*------------Services--------------*/
 .services {
-  background-color:black;
-  padding: 10px;
+  margin-top: 10px;
+  text-align:left;
+  background-color: black;
+  padding: 20px 5px;
+}
+
+.services .container {
+    margin-top: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services .service {
+  width: calc(32% - 20px);
+  margin-bottom: 20px;
+  padding: 30px;
   text-align: center;
+  background-color: black;
+  box-shadow: 10px 5px rgba(7, 4, 9, 0.4);
 }
 
-.services h2 {
-  font-size: 2em;
-  margin-bottom: 30px;
+.services .service img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
-.service-item {
-  margin: 20px auto;
-  max-width: 600px;
-}
-
-.service-item h3 {
-     text-align: center;
-  font-size: 1.5em;
+.services .service h3 {
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
-.service-item p {
-    text-align: center;
-  font-size: 1.1em;
-  line-height: 1.5;
+.services .service p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
 
+.services .service a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
-.serviceimg {
-    display:table;
-    align-items:center;
-    justify-content: center;
-    margin: 10px;
-    height: 50%;
-    position:relative;
-    top: 0;
-    left: 0;
+
+.services .service a:hover {
+  background-color: orange;
 }
+
+
 
 /*------------contact--------------*/
 
