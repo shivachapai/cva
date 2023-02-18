@@ -13,16 +13,17 @@
 }
 
 body {
+    margin: auto;
   background: #080808;
   color: #fff;
+  width: 600px;    
 }
 
 .index-page {
-  margin: auto;
-  background-image: url(images/cva1.jpg);
-  position: relative;
+  margin: 10px; 
+  background-size: cover; 
+  background-attachment: fixed;
 }
-
 #header {
   align-items: center;
   width: 100%;
@@ -39,7 +40,7 @@ body {
 nav {
   display: flex;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content:flex-start;
 }
 
 .logo {
@@ -75,24 +76,28 @@ nav ul li a::after {
   bottom: -6px;
   transition: 0.5s;
 }
-
 nav ul li a:hover::after {
   width: 100%;
 }
-
 .header-text {
   margin-top: 10%;
   font-size: 20px;
 }
-
 .header-text h1 {
   font-size: 60px;
   margin-top: 10px;
 }
-
 .header-text h1 span {
   color: red;
 }
+.image {
+  float:right ;
+    width: inherit;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 45%; /* 半径が50%の円形になる */
+}
+
 
 /*-----------------------------about------*/
 .sub-title {
@@ -108,16 +113,16 @@ nav ul li a:hover::after {
 }
 
 .img {
+    float: left;
   height: 300px;
-  margin-right: 40px;
+    width: 200px;
+  margin-right: 30px;
 }
 
 h3 {
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-/* タブのタイトル */
+  font-size: 1.0rem;
+  line-height: 1.0;
+}/* タブのタイトル */
 .tab-titles {
   display: flex;
   justify-content: center;
@@ -125,7 +130,6 @@ h3 {
   background-color: #green;
   margin-bottom: 10px;
 }
-
 .tab-links {
   font-size: 16px;
   font-weight: bold;
@@ -153,39 +157,14 @@ h3 {
   border: 1px solid #red;
 }
 
-/*------------project--------------*/
+/*------------project--------------*/  
 .sub-title {
-  font-size: 2rem;
-  margin: 40px 0;
-  text-align: center;
+  font-size: 2em;
+  margin-top: 30px;
 }
-
-.imgservice {
-  margin-top: 0;
-  display: flex;
-  align-items: top;
-}
-
-.img {
-    width:80%;
-  height: 200px;
-  margin-right: 40px;
-}
-
-h1 {
-  font-size: 1.2rem;
+p {
   line-height: 1.5;
-}
-.projects{
-    text-align:left;
-}
-.projects.p{
-    text-align:right;
-}
-.learn{
-    margin-top: 10;
-    text-align: center;
-}   
+  margin-bottom: 20px;
 }
 /*------------Services--------------*/
 .services {
@@ -218,6 +197,7 @@ h1 {
 }
 
 .services .service h3 {
+ color: tomato;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -286,7 +266,7 @@ textarea{
 input[type="submit"]{
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color:red;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -299,37 +279,29 @@ input[type="submit"]:hover{
     color: #333;
 }
 /*-----socal media-------*/
+
+---------------------------
 .social-media {
-  margin: 10px 0;
-  text-align: center;
+   float: down;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-media ul {
+ul {
   list-style: none;
-  padding: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-media li {
-  display: inline-block;
+li {
   margin: 0 10px;
 }
 
-.social-media a {
-  display: inline-block;
-  text-decoration: none;
-  border-radius: 50%;
-  transition: all 0.2s ease;
-}
-
-.social-media a img {
-  width: 60px;
-  width: 60px;
+img {
+  width: 50px;
   height: 50px;
-  object-fit: cover;
 }
 
-.social-media a:hover {
-  opacity: 0.8;
-}
 
