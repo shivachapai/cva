@@ -1,42 +1,15 @@
-form{
-	text-align: center;
-	color: orangered;
-}
-/* tennno information */
-.tab-titles {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.tab-links {
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-top: 2px solid transparent;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-/* アクティブなタブのタイトル */
-.active-link {
-  background-color: black;
-  border-top: 2px solid #006633;
-  }
-
-/* タブコンテンツ */
-.tabcontent {
-  display: none;
-  padding: 20px;
-}
-root {
- blue: #007bff;
- indigo: #6610f2;
- purple: #6f42c1;
- pink: #e83e8c;
- red: #dc3545;
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+:root {
+  blue: #007bff;
+  indigo: #6610f2;
+  purple: #6f42c1;
+  pink: #e83e8c;
+  red: #dc3545;
   orange: #fd7e14;
   yellow: #ffc107;
   green: #28a745;
@@ -55,7 +28,7 @@ root {
   dark: #343a40;
   breakpoint-xs: 0;
   breakpoint-sm: 576px;
-  reakpoint-md: 768px;
+  breakpoint-md: 768px;
   breakpoint-lg: 992px;
   breakpoint-xl: 1200px;
   font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -113,8 +86,8 @@ p {
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
-  webkit-text-decoration: underline dotted;
-  textdecoration: underl inedotted;
+  -webkit-text-decoration: underline dotted;
+  textdecoration: underline dotted;
   cursor: help;
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
@@ -8004,8 +7977,7 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030;
 }
-
-  .sticky-top {
+.sticky-top {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
